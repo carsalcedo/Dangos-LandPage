@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./assets/wall.jpg");
+  
+}
+
+.Form{
+    height: 100vh;
+}
+.row{
+    background: white;
+    border-radius: 3px;
+    box-shadow: 12px 12px 22px gray;
+}
+
+.login-image{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.form-control{
+ border-top: none;
+ border-left: none;
+ border-right: none;
+  outline: none;
+}
+
+.form-control:focus{
+    background-color: rgb(241, 196, 15);
+  
+}
+
+.btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 30%;
+    background-color: #E74C3C ;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.btn1:hover{
+    background:rgb(241, 196, 15);
+    border: 1px solid;
+    color: black;
+}

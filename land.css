@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background: #FFFFE0;
+}
+
+.navbar{
+    background: #FFD700;
+    font-size: 1.2em;
+    box-shadow: 12px 12px 20px gray;
+    z-index: 1;
+}
+
+.nav-link.active{
+    color: black !important
+}
+.nav-link:hover{
+    color: white !important
+}
+
+#home{
+    background: url(./assets/banner.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.landing-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    /*background-color: rgba(240, 222, 222, 0.5);*/
+}
+
+.landing-text h1{
+    font-size: 400%;
+    font-weight: 600;
+}
+
+.landing-text a:hover{
+    background: white !important;
+    color: black;
+}
+
+#fixed{
+    background: url(./assets/banner2.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+footer{
+    width: 100%;
+    background-color: #FFD700;
+    color: black;
+}
+
+.biRs{
+    font-size: 25px;
+    color: black;
+    padding: .5em;
+}
+.biRs:hover{
+    color: #F5F5F5;
+    text-decoration: none;
+
+}
+
+#up{
+    position: fixed;
+    z-index: 1;
+    cursor: pointer;
+    bottom: 20px;
+    right: 20px;  
+
+}
+
+#up a .bi{
+    text-decoration: none;
+    font-size: 50px;
+    color: #8B0000;
+}
+
+
+@media (max-width: 768px) {
+    .landing-text h1{
+        font-size: 300%;
+    }
+
+    #up a .bi{
+        display: none;
+    }
+}
+
+@media (max-width:450px){
+    .barra{
+        display: none;
+    }
+
+    .landing-text h1{
+        font-size: 200%;
+    }
+}
